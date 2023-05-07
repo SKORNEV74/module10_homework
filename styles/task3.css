@@ -1,0 +1,15 @@
+body {
+    width: 40%;
+    margin: 0 auto;
+    padding: 10px;
+}
+.btn {
+    box-sizing: border-box;
+    border: none;
+    background: #bad7ec;
+    padding: 7px;
+
+}
+.btn-geo {
+
+}
