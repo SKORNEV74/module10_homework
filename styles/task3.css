@@ -3,13 +3,29 @@ body {
     margin: 0 auto;
     padding: 10px;
 }
+#input-block {
+    display: flex;
+}
+.input {
+    box-sizing: border-box;
+    border: 3px solid #bad7ec;
+    margin-right: 10px;
+    flex: 3 1;
+}
 .btn {
     box-sizing: border-box;
     border: none;
     background: #bad7ec;
-    padding: 7px;
-
+    padding: 7px 0;
+    flex: 0 1 100px;
 }
 .btn-geo {
-
+    display: none;
+}
+#output-block {
+    box-sizing: border-box;
+    border: 3px solid #bad7ec;
+    margin-top: 10px;
+    padding: 5px;
+    height: auto;
 }
